@@ -5,6 +5,9 @@ class Spaceship extends React.component {
       <div className="spaceship">
       {this.props.name}
       {this.props.speed}
+      {this.props.hasRockets}
+      {this.props.colors}
     )
   }
 }
+export default Spaceship;
