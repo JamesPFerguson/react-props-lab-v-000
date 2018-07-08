@@ -7,7 +7,7 @@ class Spaceship extends React.component {
       {this.props.name}
       {this.props.speed}
       {this.props.hasRockets}
-      {this.props.colors}
+      {this.props.colors.join(',')}
       </div>
     )
   }
