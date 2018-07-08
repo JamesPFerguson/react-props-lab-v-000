@@ -9,7 +9,7 @@ class Spaceship extends React.component {
       {this.props.hasRockets}
       {this.props.colors.join(',')}
       </div>
-    )
+    );
   }
 }
 
