@@ -2,7 +2,9 @@
 class Spaceship extends React.component {
   render() {
     return (
-      <div className="spaceship"
+      <div className="spaceship">
+      {this.props.name}
+      {this.props.speed}
     )
   }
 }
